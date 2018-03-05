@@ -34,4 +34,4 @@ s.stop
 
 // ------------------------------------------------
 // NOTE:
-// - Cannot assign var beside "a" and "s", in other words variable with more than single letters,still have no idea why.
+// -
