@@ -21,7 +21,7 @@ d = Dictionary.new;
 (
 	d.add(\i -> PathName("/Users/mac/Desktop/bufbas/").entries.collect({
 		arg pt;
-		Buffer.read(s, pt.fullPath); //get samples assigned to a[\i].
+		Buffer.read(s, pt.fullPath); //get samples assigned to d[\i].
 		Buffer.numChannels
 	   });
 	);
